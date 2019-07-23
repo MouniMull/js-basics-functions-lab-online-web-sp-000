@@ -19,4 +19,4 @@ function distanceFromHqInFeet (blocks) {
   return feet;
 }
 
-function distanceTran
+distanceTravelledInFeet()
