@@ -27,19 +27,19 @@ function distanceTravelledInFeet(blocks, pickup) {
   }
 }
 
-function calculatesFarePrice(blocks, pickup){
+
+function calculatesFarePrice (blocks, pickup) {
   const distance = distanceTravelledInFeet(blocks, pickup);
-  
-  if (distance < 400) {
+
+  if (distance <= 400) {
     return 0;
-  } else if(distance > 400) {
-    return ((distance - 400)*(1/50)) 
+  } else if (distance > 400 && distance <= 2000) {
+    return .02 * (distance - 400);
   } else if (distance > 2000 && distance < 2500) {
     return 25;
   } else {
     return 'cannot travel that far';
   }
-
 }
 
 
