@@ -14,5 +14,5 @@ if (blocks > 42){
 
 
 function distanceFromHqinFeet(blocks){
-  return distanceFromHqInBlocks()
+  return distanceFromHqInBlocks(blocks)*264;
 }
