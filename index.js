@@ -14,9 +14,5 @@ if (blocks > 42){
 
 
 function distanceFromHqinFeet(feet){
-  if (feet >4){
-    return (feet - 42)*264;
-  } else {
-    return (42 - feet)*264;
-  }
+
 }
