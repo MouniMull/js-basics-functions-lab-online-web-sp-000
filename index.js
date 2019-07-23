@@ -32,7 +32,7 @@ function calculatesFarePrice(blocks, pickup){
   
   if (distance < 400) {
     return 0;
-  } else {
+  } else if {
     
   }
 }
