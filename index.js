@@ -28,5 +28,5 @@ function distanceTravelledInFeet(blocks, pickup) {
 }
 
 function calculatesFarePrice(blocks, pickup)
-return 
+
 
