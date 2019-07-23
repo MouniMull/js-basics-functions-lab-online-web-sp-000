@@ -28,7 +28,9 @@ function distanceTravelledInFeet(blocks, pickup) {
 }
 
 function calculatesFarePrice(blocks, pickup){
-  const distanceTravelledInFeet(blocks, pickup)
+  const distanceTravelledInFeet(blocks, pickup);
+  
+  if ()
 }
 
 
