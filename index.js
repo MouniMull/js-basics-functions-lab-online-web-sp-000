@@ -34,7 +34,12 @@ function calculatesFarePrice(blocks, pickup){
     return 0;
   } else if(distance > 400) {
     return ((distance - 400)*(1/50)) 
+  } else if (distance > 2000 && distance < 2500) {
+    return 25;
+  } else {
+    return 'cannot travel that far';
   }
+
 }
 
 
