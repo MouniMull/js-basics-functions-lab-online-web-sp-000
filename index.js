@@ -19,4 +19,10 @@ function distanceFromHqInFeet (blocks) {
   return feet;
 }
 
-distanceTravelledInFeet()
+function distanceTravelledInFeet(blocks, pickup) {
+  if( blocks > pickup){
+    return (blocks - pickup)*264;
+  } else {
+    return (pickup - blocks)*264;
+  }
+}
