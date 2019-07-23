@@ -31,6 +31,8 @@ function calculatesFarePrice(blocks, pickup){
   const distance = distanceTravelledInFeet(blocks, pickup);
   
   if (distance < 400) {
+    return 0;
+  } else {
     
   }
 }
