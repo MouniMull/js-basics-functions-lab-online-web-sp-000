@@ -18,3 +18,5 @@ function distanceFromHqInFeet (blocks) {
   let feet = distanceFromHqInBlocks(blocks)*264;
   return feet;
 }
+
+function distanceTran
