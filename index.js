@@ -26,3 +26,4 @@ function distanceTravelledInFeet(blocks, pickup) {
     return (pickup - blocks)*264;
   }
 }
+
