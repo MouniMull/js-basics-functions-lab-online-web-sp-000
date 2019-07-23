@@ -11,7 +11,7 @@ if (blocks > 42){
 }
 }
 
-let distanceBlocks = 
+let distanceBlocks = distanceFromHqInBlocks
 
 function distanceFromHqinFeet(blocks){
   
