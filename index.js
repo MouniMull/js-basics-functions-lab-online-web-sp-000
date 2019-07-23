@@ -11,8 +11,9 @@ if (blocks > 42){
 }
 }
 
+let feet = distanceFromHqInBlocks(blocks)*264;
 
 
-function distanceFromHqinFeet(blocks){
-  return distanceFromHqInBlocks(blocks)*264;
+function distanceFromHqInFeet (blocks) {
+  return feet();
 }
