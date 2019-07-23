@@ -4,5 +4,7 @@
 
 
 function distanceFromHqInBlocks(blocks){
-return  blocks - 42;
+if (blocks > 42){
+  return blocks - 42 
+}
 }
