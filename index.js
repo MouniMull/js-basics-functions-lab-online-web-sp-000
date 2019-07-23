@@ -27,3 +27,4 @@ function distanceTravelledInFeet(blocks, pickup) {
   }
 }
 
+function calculate
